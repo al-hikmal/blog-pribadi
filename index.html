@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog | About Me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar">
+            <div class="nav-container">
+                <h2 class="logo">Blog Pribadi</h2>
+
+
+                <!-- Tombol Hamburger untuk Mobile -->
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">&#9776;</label>
+
+                <!-- Link Navigasi -->
+                <ul class="nav-links" style="margin-left: 500px;">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="D:/AL HIKMAL_SMAN 5 PINRANG/WEB SEKOLAH/sekolah.html">Sekolah</a></li>
+                    <li><a href="https://linktr.ee/al_hikmal" target="_blank">Kontak</a></li>
+                </ul>
+
+                <!-- Dark Mode Toggle Button -->
+                <button id="dark-mode-toggle" aria-label="Toggle Dark Mode" title="Toggle Dark Mode"
+                    style="background:none; border:none; cursor:pointer; font-size:1.5rem; color: var(--primary);">
+                    <i class="fas fa-moon"></i>
+                </button>
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome To My Profile</h1>
+                <p>Mengenai Diri dan Pengalamanku</p>
+            </div>
+        </section>
+
+        <nav class="bubble-nav">
+            <div class="bubble active" data-target="profile">
+                <i class="fas fa-user"></i>
+                <span class="bubble-label">Profile</span>
+            </div>
+            <div class="bubble" data-target="achievements">
+                <i class="fas fa-trophy"></i>
+                <span class="bubble-label">Prestasi</span>
+            </div>
+            <div class="bubble" data-target="contact">
+                <i class="fas fa-envelope"></i>
+                <span class="bubble-label">Kontak</span>
+            </div>
+        </nav>
+
+        <!-- Profile Section -->
+        <section id="profile" class="content-section active">
+            <h2 class="section-title">Profil Lengkap</h2>
+            <div class="profile-grid">
+                <div class="profile-pic">
+                    <img src="image1.JPG" alt="Profile Picture">
+                </div>
+                <div class="profile-info">
+                    <h2>AL Hikmal</h2>
+                    <p>Sekretaris OSIS SMA Negeri 5 Pinrang</p>
+
+                    <div class="info-item">
+                        <h3>Deskripsi</h3>
+                        <p>
+                            Tempat, Tanggal Lahir: Sipitang, 09 Oktober 2008. <br>
+                            Hobby: Travelling. <br>
+                            Minat: Teknologi informasi dan komunikasi. <br>
+                            Cita-Cita: Programmer. <br>
+                            Pengalaman: Menjadi Sekretaris OSIS di Sekolah. <br>
+
+                        </p>
+                    </div>
+
+                    <div class="info-item">
+                        <h3>Pendidikan</h3>
+                        <p>
+                            Sekolah Dasar: SD Negeri 183 Patampanua. <br>
+                            Sekolah Menengah Pertama: SMP Negeri 2 Patampanua. <br>
+                            Sekolah Menengah Atas: SMA Negeri 5 Pinrang.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="content-section">
+            <h2 class="section-title">Prestasi</h2>
+            <ul class="achievement-list">
+                <li class="achievement-item">
+                    <h3>Menjadi Sekretaris OSIS di SMAN 5 Pinrang</h3>
+                    <p>Menjadi Sekretaris OSIS memiliki peran penting dalam kelancaran administrasi organisasi. Tugas utamanya adalah mencatat hasil rapat, menyusun dan mengarsipkan dokumen seperti proposal, surat, dan laporan kegiatan. Selain itu, sekretaris juga membantu ketua OSIS dalam mengatur jadwal, menyampaikan informasi, dan memastikan semua kegiatan berjalan sesuai rencana. Dibutuhkan ketelitian, tanggung jawab, dan kemampuan mengelola waktu dengan baik.</p>
+                </li>
+                <li class="achievement-item">
+                    <h3>Mendapatkan Medali Perunggu di Kompetisi Pelajar Jenius Indonesia</h3>
+                    <p>Kompetisi Pelajar Jenius Indonesia (KPJI) merupakan olimpiade online yang diadakan oleh <a
+                            href="http://instagram.com/ligaolimpiade" target="_blank">Liga Olimpiade</a> pada hari
+                        Minggu, 16 Februari 2025, saya mendapatkan medali perunggu di bidang matematika..</p>
+                </li>
+                <li class="achievement-item">
+                    <h3>Mendapatkan Medali Perak di Nusantara Best Student Kompetition</h3>
+                    <p>Nusantara Best Student Kompetition (NBSK) merupakan olimpiade online yang diadakan oleh <a
+                            href="http://instagram.com/smartstudent.ind" target="_blank">Smart Student</a> & <a
+                            href="http://instagram.com/ligaolimpiade" target="_blank">Liga Olimpiade</a> pada hari
+                        Sabtu, 1 Maret 2025, saya mendapatkan medali perunggu di bidang matematika.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <h2 class="section-title">Kontak</h2>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>alhikmal5250@email.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Website</h3>
+                    <a href="https://linktr.ee/al_hikmal" target="_blank">linktr.ee/al_hikmal</a>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Pinrang, Sulawesi Selatan</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Blog Pribadi. Dibuat dengan ❤ dan kopi hangat.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
